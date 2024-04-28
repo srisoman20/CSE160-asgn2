@@ -1,0 +1,51 @@
+<!-- Srinidhi Somangili
+sksomang@ucsc.edu -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Assignment 1</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+
+    <p id="numdot">XXX</p>
+
+    
+    <p>
+    Horizontal Camera Angle <input type ="range" min="-360" max="360" value="5" class="slider" id="horangleSlide">
+    <p>
+      <p>
+        Vertical Camera Angle <input type ="range" min="-360" max="360" value="5" class="slider" id="verangleSlide">
+        <p>
+    Head <input type ="range" min="-15" max="15" value="0" class="slider" id="head">
+    <p>
+    Trunk <input type ="range" min="-8" max="8" value="0" class="slider" id="trunk">
+    <p>
+      Bottom Trunk <input type ="range" min="-10" max="10" value="0" class="slider" id="bottrunk">
+      <p>
+    Ears <input type ="range" min="-30" max="30" value="0" class="slider" id="ears">
+    <p>
+      Body <input type ="range" min="-10" max="10" value="0" class="slider" id="body">
+
+    <button type="button" id="animationon">ON</button>
+    <button type="button" id="animationoff">OFF</button>
+
+
+
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix.js"></script>
+    <script src="asg2.js"></script>
+    <script src="Point.js"></script>
+    <script src="Triangle.js"></script>
+    <script src="Circle.js"></script>
+    <script src="Cube.js"></script>
+  </body>
+</html>
